@@ -1,17 +1,5 @@
 import sqlite3
 
-import os
-
-# Nome do arquivo do banco de dados
-nome_banco = "banco.db"
-
-# Verifica se o arquivo existe e o exclui
-if os.path.exists("banco.db"):
-    os.remove("banco.db")
-    print("Banco de dados excluído com sucesso!")
-else:
-    print("O arquivo do banco de dados não existe.")
-
 conexion = sqlite3.connect("banco.db")
 cursor = conexion.cursor()
 

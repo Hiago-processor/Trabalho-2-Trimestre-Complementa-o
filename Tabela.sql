@@ -31,4 +31,5 @@ CREATE TABLE CLIENTE (
 INSERT INTO CLIENTE
 (CLIENTE_ID, NOME, DATA, EMAIL, CPF, CEP, TELEFONE, ENDER, NCASA, COMPLE, CITY, UF, OBS)
 VALUES
-(1, 'Pedro', '2015-03-10', 'pedro.balde@gmail.com', '111.526.426-19', '83702-050', '41 9666-1670', 'Rua Fernando Pinho de Azevedo', 49, 'casa preta', 'Araucária', 'PR', 'Cliente bom, educado, e bondoso');
+(1, 'Pedro', '2010-03-10', 'pedro.balde@gmail.com', '111.526.426-19', '83702-050', '41 9666-1670', 'Rua Fernando Pinho de Azevedo', 49, 'casa preta', 'Araucária', 'PR', 'Cliente bom, educado, e bondoso.'),
+(2, 'Pedro Ocanha', '2010-04-01', 'pedro.ocanha@gmail.com', '222.989.432-89','80020-310' ,'41 95432-7032', 'Rua XV de Novembro', 32, 'Apartamento cor marrom beje', 'Curitiba', 'PR', 'Paga bem, preciso de mais clientes.');
